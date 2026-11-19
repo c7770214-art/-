@@ -100,3 +100,4 @@ nav button{color:#c2d0ef}nav button:hover{color:#9dbaff}.primary{background:#456
 .character-filter-group label{align-self:center}
 @media(max-width:620px){.character-filter-group{grid-template-columns:1fr}.character-filter-group label{margin-top:6px}}
 
+.reader-navigation{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:42px 0 10px;padding-top:22px;border-top:1px solid var(--line)}.reader-navigation button:disabled{opacity:.35;cursor:not-allowed}.reader-navigation button{min-width:125px}@media(max-width:600px){.reader-navigation{justify-content:center}.reader-navigation button{flex:1;min-width:130px}}
